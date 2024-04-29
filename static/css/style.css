@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Button styles */
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #68b1ff;
+    color: #fff;
+}
+
+/* Card styles */
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+button{
+    align-items: center;
+    background-color: #68b1ff;
+}

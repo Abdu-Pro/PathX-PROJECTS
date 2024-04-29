@@ -1,0 +1,28 @@
+your_flask_app/
+    app.py
+    templates/
+        base.html
+        register.html
+        login.html
+        profile.html
+        careers.html
+
+
+
+your_flask_app/
+    app.py          # Main Flask application script
+    templates/      # Folder for HTML templates
+        base.html       # Base template
+        register.html   # Template for user registration
+        login.html      # Template for user login
+        profile.html    # Template for user profile
+        careers.html    # Template for career exploration
+    static/         # Folder for static files (CSS, JavaScript, images)
+        css/            # CSS files
+            style.css   # Main stylesheet
+        js/             # JavaScript files
+            script.js   # Main JavaScript file
+        img/            # Image files
+            logo.png    # Logo image
+    models.py       # Script for database models (if using a database)
+    forms.py        # Script for Flask-WTF forms (if using forms)

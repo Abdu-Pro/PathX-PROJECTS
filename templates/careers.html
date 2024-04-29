@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Careers - Career Exploration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2>Explore Careers</h2>
+            <div class="list-group">
+                {% for career in careers %}
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">{{ career.title }}</h5>
+                    <p class="mb-1">{{ career.description }}</p>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
