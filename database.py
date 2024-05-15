@@ -19,6 +19,5 @@ def add_fields(connection, field_name, description, salary):
     with connection:
         connection.excute(INSERT_FIELDS, (field_name, description, salary))
 
-def get_all_fields(connection):
-    with connection:
-        
+# def get_all_fields(connection):
+#     with connection:

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% block title %}Career Exploration{% endblock %}</title>
+    <title>Career Exploration</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -11,21 +11,22 @@
 
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}"
+      href="static/css/style.css"
     />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">PathX</a>
+      <a class="navbar-brand" href="login.html">PathX</a>
+      <a class="navbar-brand" href="signup.html">PathX</a>
+      <a class="navbar-brand" href="contact.html">PathX</a>
       <!-- Add navigation links here -->
     </nav>
     <div class="button">
-      <button style="justify-content: center">
-        New to PathX app?
+      <button>
         <a href="http://127.0.0.1:500/register">Create a new account. </a>.
       </button>
     </div>
-    <div class="container mt-4">{% block content %}{% endblock %}</div>
+    <div class="container mt-4">footer</div>
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
         <span class="text-muted">© 2024 Career Path Explorer</span>
